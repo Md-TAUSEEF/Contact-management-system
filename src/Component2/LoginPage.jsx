@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import login from '../Component1/images/login.png'
-import './Loginpage.css';
+import './LoginPage.css';
 import { useNavigate } from 'react-router-dom';
 import { useAuth } from './Storetoken/auth_token';
 
