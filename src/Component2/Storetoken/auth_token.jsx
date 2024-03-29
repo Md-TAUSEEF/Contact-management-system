@@ -32,7 +32,7 @@ export const AuthProvider = ({ children }) => {
 
   const getServices = async()=>{
     try{
-      const response = await fetch("https://deploy-mern-api.vercel.app/api/group/service",{
+      const response = await fetch("https://deploy-mern-api-nu.vercel.app/api/group/service",{
         method:"GET",
       });
 
@@ -58,7 +58,7 @@ export const AuthProvider = ({ children }) => {
   const useAuthentication = async () => {
         try {
           setIsAdminlogin(true);
-        const response = await fetch("https://deploy-mern-api.vercel.app/api/auth/user", {
+        const response = await fetch("https://deploy-mern-api-nu.vercel.app/api/auth/user", {
             method: "GET",
             headers: {
             Authorization: Authorization,
@@ -92,7 +92,7 @@ export const AuthProvider = ({ children }) => {
     try {
       const Authorization =`Bearer ${token}`
       
-    const response = await fetch("https://deploy-mern-api.vercel.app/app/get/alltask", {
+    const response = await fetch("https://deploy-mern-api-nu.vercel.app/app/get/alltask", {
         method: "GET",
         headers: {
         Authorization: Authorization,

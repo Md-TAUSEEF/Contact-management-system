@@ -29,7 +29,7 @@ export default function LoginPage() {
     e.preventDefault();
 
     try{
-   const loginresponse = await fetch(`https://deploy-mern-api.vercel.app/api/auth/login`,{
+   const loginresponse = await fetch(`https://deploy-mern-api-nu.vercel.app/api/auth/login`,{
     method:"POST",
     headers:{
       "Content-Type": "application/json",

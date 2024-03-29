@@ -24,7 +24,7 @@ export default function Admin_Edit() {
   const getSingleUserData = async () => {
     try {
       const response = await fetch(
-        `https://deploy-mern-api.vercel.app/api/admin/users/${params.id}`,
+        `https://deploy-mern-api-nu.vercel.app/api/admin/users/${params.id}`,
         {
           method: "GET",
           headers: {

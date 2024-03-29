@@ -10,7 +10,7 @@ export default function Admin_contact() {
   //get all contact data
   const getAllcontactData = async () => {
     try {
-      const response = await fetch("https://deploy-mern-api.vercel.app/api/admin/contact", {
+      const response = await fetch("https://deploy-mern-api-nu.vercel.app/api/admin/contact", {
         method: "GET",
         headers: {
           Authorization: Authorization,
@@ -32,7 +32,7 @@ export default function Admin_contact() {
   const deletcontact = async(id)=>{
     try{
 
-      const response = await fetch(`https://deploy-mern-api.vercel.app/api/admin/contact/delet/${id}`,{
+      const response = await fetch(`https://deploy-mern-api-nu.vercel.app/api/admin/contact/delet/${id}`,{
         method: "DELETE",
         headers: {
           Authorization: Authorization,

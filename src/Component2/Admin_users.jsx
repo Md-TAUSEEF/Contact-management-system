@@ -11,7 +11,7 @@ export default function Admin_users() {
   //get all user data user data
   const getAllUserData = async () => {
     try {
-      const response = await fetch("https://deploy-mern-api.vercel.app/api/admin/users", {
+      const response = await fetch("https://deploy-mern-api-nu.vercel.app/api/admin/users", {
         method: "GET",
         headers: {
           Authorization: Authorization,
@@ -40,7 +40,7 @@ export default function Admin_users() {
   const deletuser = async(id)=>{
     try{
 
-      const response = await fetch(`https://deploy-mern-api.vercel.app/api/admin/user/delet/${id}`,{
+      const response = await fetch(`https://deploy-mern-api-nu.vercel.app/api/admin/user/delet/${id}`,{
         method: "DELETE",
         headers: {
           Authorization: Authorization,

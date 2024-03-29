@@ -39,7 +39,7 @@ export default function Contact() {
     alert(JSON.stringify(user));
 
     try{
-      const contactform = await fetch('https://deploy-mern-api.vercel.app/api/form/contact',{
+      const contactform = await fetch('https://deploy-mern-api-nu.vercel.app/api/form/contact',{
         method:"POST",
         headers:{
           "Content-Type": "application/json",

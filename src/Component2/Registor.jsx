@@ -36,7 +36,7 @@ export default function Registor() {
     console.log(user);
   
     try {
-      const response = await fetch("https://deploy-mern-api.vercel.app/api/auth/registor", {
+      const response = await fetch("https://deploy-mern-api-nu.vercel.app/api/auth/registor", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
