@@ -1,0 +1,56 @@
+.adminuser_cnt {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .adminuser_mid {
+    margin-bottom: 20px;
+  }
+  
+  .adminuser_table {
+    width: 80%;
+    overflow-x: auto;
+  }
+  
+  .adminuser_table table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .adminuser_table th,
+  .adminuser_table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .adminuser_table th {
+    background-color: #f2f2f2;
+  }
+  
+  .adminuser_table tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  .adminuser_table tbody tr:hover {
+    background-color: #ddd;
+  }
+  
+  .adminuser_table td button {
+    cursor: pointer;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 5px 10px;
+  }
+  
+  .adminuser_table td button:hover {
+    background-color: #45a049;
+  }
+  
+  .adminuser_table h2 {
+    margin-top: 20px;
+  }
+  

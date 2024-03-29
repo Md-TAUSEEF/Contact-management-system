@@ -1,0 +1,49 @@
+.admincontact_cnt {
+    margin: 20px;
+  }
+  
+  .admincontact_mid {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .admincontact_table {
+    width: 100%;
+    overflow-x: auto;
+  }
+  
+  .admincontact_table table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .admincontact_table th, .admincontact_table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  .admincontact_table th {
+    background-color: #f2f2f2;
+  }
+  
+  .admincontact_table tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  .admincontact_table tr:hover {
+    background-color: #ddd;
+  }
+  
+  .admincontact_table td button {
+    background-color: #ff6347;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  .admincontact_table td button:hover {
+    background-color: #ff5733;
+  }
+  

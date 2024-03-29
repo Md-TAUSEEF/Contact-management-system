@@ -1,0 +1,238 @@
+.Home_container{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(12, 1, 8);
+  }
+  
+  .Home_midcnt{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 19px 69px;
+      
+      
+  }
+  
+  
+  .Home_midcnt_left{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+     
+      border-radius: 8px;
+  }
+  
+  .Home_midcnt_left h3{
+      font-size: 16px;
+      font-weight: bold;
+      color: rgb(211, 209, 209);
+  }
+  
+  .Home_midcnt_left h1{
+      font-size: 28px;
+      font-weight: bold;
+      color: white;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  
+  .Home_midcnt_left p{
+      padding: 10px;
+      width: 383px;
+      height: 211px;
+      font-size: 14px;
+      text-align: justify;
+      font-weight: bold;
+      color: rgb(137, 136, 136);
+  }
+  
+  .Home_btn_left{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+     
+  }
+  
+  
+  .btn1{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-color: transparent;
+      width: 120px;
+      height: 35px;
+      margin: 8px;
+      color: white;
+      outline: none;
+      cursor: pointer;
+      border: 2px solid lightslategray;
+  }
+  
+  .Home_midcnt_right{
+      animation: fadeIn 1s ease-in-out;
+      animation: up-down 3s ease-in-out infinite alternate-reverse both;
+  }
+  
+  @keyframes fadeIn {
+      from {
+        opacity: 0;
+      }
+      to {
+        opacity: 1.5;
+      }
+    }
+    
+    @-webkit-keyframes up-down {
+      0% {
+        transform: translatey(20px);
+      }
+      100% {
+        transform: translatey(-20px);
+      }
+    }
+    
+    @keyframes up-down {
+      0% {
+        transform: translatey(20px);
+      }
+      100% {
+        transform: translatey(-20px);
+      }
+    }
+  
+  
+    .Home_cnt_mid{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 19px 69px;
+      color: black;
+      margin-top: 60px;
+     
+    }
+  
+    .Home_cnt_midh{
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      background-color:white;
+      width: 730px;
+      height: 58px;
+      border-radius: 6px;
+    }
+  
+    .Home_cnt_midh:hover{
+      box-shadow: 0 0 5px #f6f7f7,0 0 15px #f6fafa,0 0 25px #fcfdfd,0 0 100px #f9fafa;
+     
+    }
+  
+  
+  
+    .Home_cnt_midrow1{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 0px 12px;
+     border-right: 1px solid black;
+      cursor: pointer;
+    }
+  
+  
+  .Home_midend{
+    display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 19px 69px;
+      margin-top: 70px;
+  }  
+  
+  .Home_midend_left{
+    animation: fadeIn 1s ease-in-out;
+    animation: up-down 3s ease-in-out infinite alternate-reverse both;
+  }
+  
+   
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1.5;
+    }
+  }
+  
+  @-webkit-keyframes up-down {
+    0% {
+      transform: translatey(20px);
+    }
+    100% {
+      transform: translatey(-20px);
+    }
+  }
+  
+  @keyframes up-down {
+    0% {
+      transform: translatey(20px);
+    }
+    100% {
+      transform: translatey(-20px);
+    }
+  }
+  
+  
+  .Home_btn_right{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+   
+    border-radius: 8px;
+  }
+  
+  .Home_btn_right h3{
+    font-size: 16px;
+    font-weight: bold;
+    color: rgb(211, 209, 209);
+  }
+  
+  .Home_btn_right h1{
+    font-size: 28px;
+      font-weight: bold;
+      color: white;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  
+  .Home_btn_right p{
+      padding: 10px;
+      width: 383px;
+      height: 211px;
+      font-size: 14px;
+      text-align: justify;
+      font-weight: bold;
+      color: rgb(137, 136, 136);
+  }
+  
+  .footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(3, 3, 54);
+    height: 55px;
+  }
+  
+  .footer p{
+    color: white;
+    font-size: 18px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  
+  }
+  
+  .footer span{
+  color: whitesmoke;
+  margin-left: 6px;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 14px;
+  }
+  
+  

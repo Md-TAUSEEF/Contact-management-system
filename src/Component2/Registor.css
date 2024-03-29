@@ -1,0 +1,185 @@
+.registorcnt{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 19px 69px;
+    height: 100vh;
+    background-color:rgb(12, 1, 8);
+  }
+  
+  .registorcnt_right {
+      display: flex;
+      margin-right: 40px;
+      align-items: center;
+      width: 380px;
+      height: 416px;
+      background-color:rgb(12, 1, 8);
+      justify-content: center;
+      flex-direction: column;
+      border-radius: 8px;
+      cursor: pointer;
+      box-shadow:inset -3px -3px 7px #f6f3f3,
+      inset 3px 3px 5px #f6f3f3;
+      animation: left-right 5s ease-in-out infinite alternate-reverse both;
+    }
+  
+    @-webkit-keyframes left-right{
+      0%{
+        transform: translateY(20px);
+      }
+      100%{
+        transform: translateY(-20px);
+      }
+    }
+    
+    @keyframes left-right {
+      0%{
+        transform: translateY(20px);
+      }
+      100%{
+        transform: translateY(-20px);
+      }
+    }
+  
+    .registorcnt_right:hover {
+      box-shadow: 0 0 5px #383838,0 0 15px #383838,0 0 25px #383838,0 0 100px #383838;
+    }
+  
+    @keyframes fadeIn {
+      from {
+        opacity: 0;
+      }
+      to {
+        opacity: 1.5;
+      }
+    }
+  
+    .registorcnt_left {
+      animation: fadeIn 1s ease-in-out; 
+      animation: up-down 3s ease-in-out infinite alternate-reverse both;
+    }
+  
+   img{
+      
+      filter: drop-Shadow(10px 10px 15px rgb(203,221,255));
+    }
+  
+    @-webkit-keyframes up-down{
+      0%{
+        transform: translateY(20px);
+      }
+      100%{
+        transform: translateY(-20px);
+      }
+    }
+    
+    @keyframes up-down {
+      0%{
+        transform: translateY(20px);
+      }
+      100%{
+        transform: translateY(-20px);
+      }
+    }
+  
+   
+   
+  
+  
+    .registorcnt_right form {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+  }
+  
+  .form_row {
+      margin-bottom: 10px;
+      display: flex;
+      align-items: center;
+  }  
+  
+  .form_row label {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: 8px;
+      font-size: 16px;
+      color: white;
+  
+      font-weight: bold;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  
+  input {
+     background-color: #fff;
+     height: 35px;
+     width: 280px;;
+     color: #525865;
+     border-radius: 1px solid #1d1d1d;
+     box-shadow: inset 1px 2px 8px rgba(0,0,0,0.07);
+     font-family: inherit;
+     font-size: 1rem;
+     line-height: 1.45;
+     box-shadow:inset -3px -3px 7px #ffff,
+      inset 3px 3px 5px rgba(0, 0, 0, 0.374);
+     outline: none;
+     padding: 0.6em 1.45em 0.7em;
+     -webkit-transition: .18s ease-out;
+     -moz-transition: .18s ease-out;
+     -o-transition: .18s ease-out;
+     transition: .18s ease-out;
+     border-radius: 2px;
+    
+  }
+  
+  .form_row input:hover{
+    box-shadow: inset 1px 2px 8px rgba(0,0,0,0.02);
+      cursor: pointer;
+  }
+  
+  .form_row input:focus{
+    color: #4b515d;
+    border: 1px solid #b8b6b6;
+    box-shadow: inset 1px 2px 4px rgba(0,0,0,0.01),0px 0px 8px rgba(0,0,0,0.2);
+  }
+  
+  .row2{
+      margin-left: 30px
+  
+  }  
+  
+  
+  .registor_right_head h1{
+      font-size: 30px;
+      font-weight: bold;
+      margin-bottom: 50px;
+      color: whitesmoke;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      
+  }
+  h1{
+    transition: all ease 0.5s;
+  }
+  
+  h1:hover{
+    text-shadow: 0 0 5px #03e9f4,0 0 15px #03e9f4,0 0 25px #03e9f4,0 0 100px #03e9f4;
+  }
+  
+  .btn {
+      padding: 10px 20px;
+      background-color:rgb(64, 221, 238);
+      color: #fdfbfb;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: all ease 0.5s;
+    }
+  
+    .btn:hover {
+     -webkit-box-reflect:below
+     1px linear-gradient(transparent,#0005);
+  cursor: pointer;
+     box-shadow: 0 0 5px #03fefe,0 0 15px #02fbfb,0 0 25px #02fdfd,0 0 100px #03ffff;
+    }
+  
+  
