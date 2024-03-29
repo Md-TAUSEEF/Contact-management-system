@@ -82,7 +82,7 @@ export default function Admin_Edit() {
    
     try {
       const response = await fetch(
-        `http://localhost:5000/api/admin/users/update/${params.id}`,
+        `https://deploy-mern-api-nu.vercel.app/api/admin/users/update/${params.id}`,
         {
           method: "PATCH",
           headers: {
