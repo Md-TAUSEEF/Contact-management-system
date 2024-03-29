@@ -7,13 +7,11 @@
 html{
     font-size: 70.5%;
 }
-/* Navbar.css */
 .Navbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 19px 69px;
-    /* width: 1%; */
     background-color:rgb(12, 1, 8)
   }
   

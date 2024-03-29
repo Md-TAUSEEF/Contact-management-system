@@ -30,12 +30,6 @@ export default function Admin_users() {
   }, []);
 
 
- 
-
-
-  //*-----------------------------
-  //Delete user data
-  //**------------------------------ */
 
   const deletuser = async(id)=>{
     try{

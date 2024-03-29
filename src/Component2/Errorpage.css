@@ -1,4 +1,4 @@
-/* Error page container */
+
 #error_page {
     display: flex;
     flex-direction: column;
@@ -12,7 +12,7 @@
   .content {
     text-align: center;
     margin-bottom: 20px;
-    color: #343a40; /* Dark text color */
+    color: #343a40; 
   }
   
   

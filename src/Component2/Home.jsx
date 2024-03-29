@@ -44,7 +44,7 @@ export default function Home() {
         </div>
       </div>
 
-      {/* this is service part */}
+     
 
       <div className="Home_cnt_mid">
       <div className="Home_cnt_midh">
